@@ -12,7 +12,7 @@ Calls the coinlore API for the cryptocurrencies and it prints out their rates in
 
 - Semantic HTML5 markup
 - Custom CSS
-- Bootstrap
+- materialize
 - Vanilla Javascript
 
 
