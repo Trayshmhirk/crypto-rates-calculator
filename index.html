@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="shortcut icon" href="img/cryptocurrency.png" type="image/x-icon">
-    <title>Cryptocurrency Rates Calculator</title>
+    <title>Cryptocurrency Rates Generator</title>
 </head>
 <body>
     <div>
-        <h1 class="center">Cryptocurrency Rates Calculator</h1>
+        <h1 class="center">Cryptocurrency Rates Generator</h1>
     </div>
     <div class="container main-content">
         <!-- Page Content goes here -->
@@ -24,7 +24,11 @@
                                 <select id="currency">
                                     <option value="" disabled selected>- Select Currency -</option>
                                     <option value="USD">USD</option>
-                                    <!-- the api request for the pounds and euro price was unable to be received -->
+                                    <!--
+                                       The api request for the pounds and euro price was unable to be received..
+                                       i was also unable to find a free api that returns the rates of the two fiat currencies,
+                                       while also giving the information we want about the cryptocurrencies.
+                                     -->
                                     <option disabled value="GBP">GBP</option>
                                     <option disabled value="EUR">Euro</option>
                                 </select>

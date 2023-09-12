@@ -1,9 +1,9 @@
-# Cryptocurrency Rates Calculator
+# Cryptocurrency Rates Generator
 
 Calls the coinlore API for the cryptocurrencies and it prints out their rates in USD.
 
 ## Table of contents
-- [Cryptocurrency Rates Calculator](#cryptocurrency-rates-calculator)
+- [Cryptocurrency Rates Generator](#cryptocurrency-rates-generator)
   - [Table of contents](#table-of-contents)
   - [Built with](#built-with)
   - [Author](#author)
